@@ -13,7 +13,10 @@ export const NavBar = () => {
                 >Events</button>
             </li>
             <li className="navbar__item">
-                Navigation link
+                <button className="nav-link fakeLink"
+                onClick={()=>{
+                    navigate('/')
+                }}>Games</button>
             </li>
             <li className="navbar__item">
                 Navigation link
